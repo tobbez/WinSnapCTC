@@ -1,0 +1,24 @@
+WinSnapCTC (WinSnap Copy To Clipboard)
+
+WinSnapCTC is designed to copy a specified string to the
+clipboard after a screenshot has been taken in WinSnap. This is
+handy if you save your screenshots in a location hosted on a web
+server - you can then copy the URL at which the new image can be
+reached to the clipboard for easy sharing.
+
+Usage:
+WinSnapCTC.exe [format-string] [image-path]
+
+The basename of the image is extracted from image-path, and "{0}"
+in format-string is then replaced with the resulting value. That
+whole string is then copied to the clipboard.
+
+To use it, set "Run the following command after saving image on
+disk" in the "Saving" section of WinSnap's settings to something
+like this:
+DRIVE:\path\to\WinSnapCTC.exe "http://example.com/screenshots/{0}" "%IMGPATH%"
+
+
+
+
+WinSnap: http://www.ntwind.com/software/winsnap.html

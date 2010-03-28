@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinSnapCTC", "WinSnapCTC\WinSnapCTC.csproj", "{4BD310E1-3A48-4583-A864-C29ABC801C36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BD310E1-3A48-4583-A864-C29ABC801C36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD310E1-3A48-4583-A864-C29ABC801C36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD310E1-3A48-4583-A864-C29ABC801C36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD310E1-3A48-4583-A864-C29ABC801C36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
